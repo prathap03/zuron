@@ -1,0 +1,7 @@
+let pMesh3
+core.loader.loadModel("./Character/plane5.glb", (mesh) => {
+    pMesh3 = mesh
+    for (let i = 0; i < 77; i++) {
+        const pl = new ZObject(core, mesh, new THREE.Vector3((i * 1.1) - 30, -0.5, 10))
+    }
+})

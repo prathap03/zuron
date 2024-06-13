@@ -1,0 +1,41 @@
+{
+    "name": "zeuron_engine",
+    "version": "1.0.0",
+    "description": "A lightweight engine created for developers inside Zeuron.ai",
+    "main": "./main.js",
+    "author": "XDreamist",
+    "contributors": [
+        {
+          "name": "XDreamist",
+          "email": "umesh@zeuron.ai"
+        }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^30.0.6",
+        "vite": "^5.2.11"
+    },
+    "scripts": {
+        "start": "electron .",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "three": "^0.164.1"
+    },
+    "keywords": [
+        "zeuron",
+        "engine",
+        "electron",
+        "vite",
+        "threejs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zeuron/zeuron-engine.git"
+    },
+      "bugs": {
+        "url": "https://github.com/zeuron/zeuron-engine/issues"
+    }
+}

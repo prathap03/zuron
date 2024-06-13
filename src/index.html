@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/webvr-polyfill@0.10.8/dist/webvr-polyfill.min.js"></script>
+    <title>Space Runner</title>
+</head>
+<body>
+    <button id="goFS" style="display: none;">Enter VR</button>
+    <div id="game-display">
+        <div id="game-renderer"></div>
+        <div id="game-ui">
+            <div id="score" class="ui-item">
+                Score: <span id="score-value">0</span>
+            </div>
+            <div id="coin-count" class="ui-item">
+                Coins: <span id="coin-count-value">0</span>
+            </div>
+            <div id="game-over-screen" style="display: none;">
+                <h1>Game Over</h1>
+                <!-- Other game over screen content -->
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./game.js"></script>
+</body>
+</html>

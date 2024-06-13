@@ -1,0 +1,36 @@
+[
+    {
+        "label": "File",
+        "submenu": [
+            {
+                "label": "Open",
+                "click": "function() {\n    console.log('open');\n}"
+            }
+        ]
+    },
+    {
+        "label": "Edit",
+        "submenu": [
+            { "role": "undo" },
+            { "role": "redo" },
+            { "type": "separator" },
+            { "role": "cut" },
+            { "role": "copy" },
+            { "role": "paste" },
+            { "role": "pasteandmatchstyle" },
+            { "role": "delete" },
+            { "role": "selectall" }
+        ]
+    },
+    {
+        "label": "Tools",
+        "submenu": [
+            { "role": "toggleDevTools" },
+            {
+                "label": "Engine Tools",
+                "click": "function() {\n    console.log('redo');\n}",
+                "accelerator": "Ctrl + Shift + J"
+            }
+        ]
+    }
+]
